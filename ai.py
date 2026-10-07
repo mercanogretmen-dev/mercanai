@@ -6,7 +6,7 @@ st.set_page_config(page_title="ArduUsta", page_icon="🤖")
 st.title("🤖 ArduUsta: Arduino Eğitmeni")
 
 # API Anahtarını Streamlit Secrets üzerinden alıyoruz (Güvenlik için)
-genai.configure(api_key=st.secrets["AQ.Ab8RN6Ia4aRQNp_AqnCLxqu9NhQWknwuNHqGJGS2FPtGhTX8SA"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 # Ajanın Kuralları (Burayı görev kağıdındaki kendi kurallarınızla değiştirebilirsiniz)
 sistem_komutu = """Senin adın ArduUsta. Ortaokul öğrencilerine Arduino öğreten bir asistansın.
 Öğrenci proje sorduğunda ASLA hazır tam kod verme. Sadece kullanılması gereken komutları 
